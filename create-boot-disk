@@ -3,3 +3,12 @@ softwareupdate --fetch-full-installer --full-installer-version $VERSION_NUMBER
 
 # create bootable usb
 sudo /Applications/Install\ macOS\ Monterey.app/Contents/Resources/createinstallmedia --volume $PATH_TO_USB
+
+# boot mac with usb while holding down option (alt)
+
+# erase fusion drive disks in diskutils
+
+# install macos
+# - if only the separate drives show as install targets
+#   use terminal to merge disks into single fusion drive
+diskutil resetFusion
