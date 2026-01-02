@@ -1,0 +1,5 @@
+# pull down installer
+softwareupdate --fetch-full-installer --full-installer-version $VERSION_NUMBER
+
+# create bootable usb
+sudo /Applications/Install\ macOS\ Monterey.app/Contents/Resources/createinstallmedia --volume $PATH_TO_USB
